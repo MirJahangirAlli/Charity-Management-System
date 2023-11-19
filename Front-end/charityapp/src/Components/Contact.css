@@ -1,0 +1,119 @@
+.contact{
+    margin-top: 40px;
+    height:60vh;
+    width:100%;
+    background-color: rgb(89, 177, 180);
+    padding:30px;
+    display: flex;
+    position: relative;
+    color:white;
+}
+.foot{
+    height:22px;
+    width:100%;
+    background-color: rgb(57, 106, 107);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    color:white;
+    text-align: center;
+    padding-top: 3px;
+}
+.cont{
+    height: 100%;
+    width: 50%;
+    padding:55px 80px 25px 80px;
+    line-height: 1.5;
+}
+.cont.one{
+    border-right: 1px white solid;
+}
+hr{
+    width:80%;
+}
+.social{
+    width: 140px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social img{
+    height:35px;
+    width:35px;
+    cursor: pointer;
+}
+.cont.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont.two{
+    text-align: center;
+}
+form{
+    position: relative;
+    height:80%;
+    width:90%;
+
+}
+form input{
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 20px;
+   border-radius: 15px;
+   border: none;
+}
+form button{
+    font-size: 1.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 20px;
+    font-weight: 600;
+    background-color: rgba(36, 238, 25, 0.705);
+    border:none;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+@media(max-width: 670px){
+    .contact{
+      height: 100%;
+      flex-direction: column;
+    }
+    .cont{
+        height: 100%;
+        width: 100%;
+        padding:45px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    
+    .cont.one{
+        border-right: none;
+        border-bottom: 1px white solid;
+    }
+    form{
+        width: 412px;
+    }
+    form input{
+        height: 50px;
+        width: 300px;
+        padding: 10px;
+        font-size: 1rem;
+        margin-bottom: 20px;
+       border-radius: 15px;
+       border: none;
+    }
+    .foot{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.5rem;
+    }
+    .social{
+        margin-left: 40px;
+    }
+  }
